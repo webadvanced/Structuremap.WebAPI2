@@ -7,7 +7,7 @@
 * App_Start (If not already in your solution)
 * DependencyResolution
 
-3 Files:
+4 Files:
 
 * App_Start/StructuremapWebApi.cs
 * DependencyResolution/StructureMapWebApiDependencyResolver.cs 
