@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="StructureMapDependencyScope.cs" company="Web Advanced">
+// <copyright file="StructureMapWebApiDependencyScope.cs" company="Web Advanced">
 // Copyright 2012 Web Advanced (www.webadvanced.com)
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,7 +27,10 @@ namespace $rootnamespace$.DependencyResolution
     /// <summary>
     /// The structure map web api dependency scope.
     /// </summary>
-    public class StructureMapWebApiDependencyScope.cs : StructureMapDependencyScope, IDependencyScope
-    {        
+    public class StructureMapWebApiDependencyScope : StructureMapDependencyScope, IDependencyScope
+    {
+        public StructureMapWebApiDependencyScope(IContainer container)
+            : base(container) {
+        }
     }
 }
