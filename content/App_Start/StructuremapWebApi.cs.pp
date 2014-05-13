@@ -19,7 +19,7 @@ using System.Web.Http;
 using StructureMap;
 using $rootnamespace$.DependencyResolution;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof($rootnamespace$.App_Start.StructuremapWebApi), "Start")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof($rootnamespace$.App_Start.StructuremapWebApi), "Start")]
 
 namespace $rootnamespace$.App_Start {
     public static class StructuremapWebApi {
